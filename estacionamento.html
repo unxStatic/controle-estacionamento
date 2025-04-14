@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Estacionamento</title>
+    <link rel="stylesheet" href="estacionamento.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Controle de Estacionamento</h1>
+        <p>Total de vagas: <span id="total-vagas">20</span></p>
+        <p>Vagas ocupadas: <span id="vagas-ocupadas">0</span></p>
+        <p>Vagas livres: <span id="vagas-livres">20</span></p>
+
+        <div class="buttons">
+            <button onclick="adicionarCarro()">Adicionar Carro</button>
+            <button onclick="removerCarro()">Remover Carro</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
